@@ -1,45 +1,61 @@
-* {
-    margin: 1.5;
-    padding: 1.5;
-}
-
-/* Body styles */
 body {
-    font-family: Times New Roman, san-serif;
-    background-color: #95ccff;
-    padding: 20px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(102, 179, 231);
+
 }
 
-/* Header styles */
-h1 {
-    font-size: 36px;
-    text-align: center;
-    margin-bottom: 20px;
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0, 0, 0.1);
+
 }
 
-/* Sub-header styles */
-h2 {
-    font-size: 24px;
+h1, h2 {
+    color: #010101;
     text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+
+}
+
+li {
     margin-bottom: 10px;
-    background-color: #2619169e;
-}
-
-/* Paragraph styles */
-p {
-    font-size: 16px;
-    line-height: 1.5;
     text-align: center;
+}
+
+li:first-child {
+    font-weight: bold;
+
+}
+
+p {
+    font-size: 18px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
-/* Link styles */
-a {
-    color: blue;
-    text-decoration: none;
+.video-container {
+    margin-top: 20px;
+}
+.video-container video {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* Link hover styles */
-a:hover {
-    text-decoration: underline;
+.audio-container audio{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
 }
