@@ -1,0 +1,45 @@
+* {
+    margin: 1.5;
+    padding: 1.5;
+}
+
+/* Body styles */
+body {
+    font-family: Times New Roman, san-serif;
+    background-color: #95ccff;
+    padding: 20px;
+}
+
+/* Header styles */
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Sub-header styles */
+h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: #2619169e;
+}
+
+/* Paragraph styles */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Link styles */
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+/* Link hover styles */
+a:hover {
+    text-decoration: underline;
+}
